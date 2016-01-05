@@ -1,0 +1,28 @@
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.list-item:hover {
+  background: rgb(240, 240, 240);
+}
+
+.list-upvote {
+  flex: 0 0 50px;
+  text-align: center;
+  font-weight: bold;
+}
+.list-picture {
+  flex: 0 0 100px;
+}
+.list-body {
+  flex: 1 0 auto;
+  padding: 10px;
+}
+.list-item .list-inline {
+  color: #CCCCCC;
+}

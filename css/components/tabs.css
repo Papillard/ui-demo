@@ -1,0 +1,36 @@
+.tabs-container {
+  display: flex;
+  justify-content: space-between;
+  background: #53453E;
+  padding: 20px 20px 0 20px;
+}
+
+.tabs {
+  background: #B3B3B3;
+  text-align: center;
+  color: white;
+  flex: 0 0 25%;
+  background: #756A66;
+}
+
+.tabs:first-child {
+  border-radius: 5px 0 0 0;
+}
+.tabs:last-child {
+  border-radius: 0 5px 0 0;
+}
+
+.tabs p {
+  color: #9A918E;
+  font-weight: lighter;
+}
+.tabs h3 {
+  font-size: 18px;
+}
+
+.tabs.active {
+  background: white;
+}
+.tabs.active h3 {
+  color: black;
+}
